@@ -1,6 +1,6 @@
 import yargs from 'yargs'
 
-export const execute = async () => {
+export default async () => {
   const options = await yargs.usage('Usage: -n <name>').option('n', {
     alias: 'name',
     describe: 'Your name',
